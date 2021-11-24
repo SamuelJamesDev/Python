@@ -5,6 +5,7 @@ Date: 11/16/21
 Name: net.py
  
 '''
+
 import subprocess
 import time
 from pyfiglet import Figlet
@@ -17,6 +18,7 @@ menu = '''
 +-------------------------------------------------+
 +-------------------------------------------------+
 +       G - CLI Commands Glossary                 +
++       S - Speed Test Program
 +       1 - netstat                               +
 +       2 - ping by address                       +
 +       3 - print route table                     +
@@ -27,6 +29,8 @@ menu = '''
 +       8 - see all system info                   +
 +       9 - check power config                    +
 +       10 - check drivers                        +
++       11 - Show IPCONFIG                        +
++       12 - Show Power config settings           +
 +       0 - EXIT PROGRAM                          +
 +-------------------------------------------------+
 +-------------------------------------------------+
@@ -66,6 +70,7 @@ def Glossary():
           * NETSTAT - Network statistics    *
           * NSLOOKUP - Find public address  *
           * GETMAC - get mac address        *
+          * FINDSTR - Windows CLI grep      *
           ***********************************
           
           ''')
@@ -109,16 +114,20 @@ def Menu():
             elif(choice == '10'):
                 print(p.renderText("running Driver Query..."))
                 subprocess.call("driverquery", shell=True)
+            elif(choice == '11'):
+                print(p.renderText("pulling ipconfig..."))
+                subprocess.call("ipconfig", shell=True)
+            elif(choice == '12'):
+                print(p.renderText("pulling battery settings..."))
+                subprocess.call("powercfg /a", shell=True)
             elif(choice == 'G'):
                 Glossary()
                 time.sleep(5)
+            elif(choice == 'S'):
+                subprocess.call("Python Speed_test.py", shell=True)
+                #time.sleep(5)
             elif(choice == '0'):
-                print("Goodbye closing in...")
-                i = 3
-                while(i > 0):
-                    print(i)
-                    i=i-1
-                    time.sleep(1)
+                print(gbye.renderText("See You Space Cowboy.."))
                 exit(0)
         else:
             print("Invalid choice, please select a valid choice from 1-8")
@@ -129,16 +138,16 @@ subprocess.call("COLOR 3", shell=True)
 n = Figlet(font='larry3d')
 p = Figlet(font='smslant')
 b = Figlet(font='smkeyboard')
+gbye = Figlet(font='banner3-D')
 print (n.renderText('WELCOME'))
 print(logo)
 time.sleep(4)
 subprocess.call("cls", shell=True)
 
 print (n.renderText('QUICKNET PROGRAM'))
-print (b.renderText('V1.3.1'))
+print (b.renderText('V1.3.3'))
 time.sleep(4)
 subprocess.call("cls", shell=True)
-
 
 try:
     Menu()

@@ -132,7 +132,7 @@ $$$$$$$$$$$$$$$$$$$$$             $        .=""
 logo6 = '''
                         ,     ,
                         |\---/|
-                       /  , , |
+                       /  ,\\/,|
                   __.-'|  / \ /
          __ ___.-'        ._O|
       .-'  '        :      _/
@@ -371,8 +371,8 @@ logo19 = '''
        ,'        .-'               `.
       /          |                   '
      /         ,-'                    `
-    .         j                         \
-   .          |                          \
+    .         j                         \\
+   .          |                          \\
    : ._       |   _....._                 .
    |   -.     L-''       `.               :
    | `.  \  .'             `.             |
@@ -649,6 +649,439 @@ J    /\\/VWV\\/\\    F
       """""""
 '''
 
+logo33 = '''
+                   o
+          o       /
+           \\     /
+            \\   /
+             \\ /
+        ______________
+       |.------------.|
+       ||            ||
+       ||            ||
+       ||            ||
+       ||            ||
+       ||____________||_
+       |OO ....... OO | `-.
+       '------_.-._---' _.'  
+        _____||   ||___/_
+       /  _.-|| N ||-._  \\      .-._
+      / -'_.---------._'- \\    ,'___i--i___
+     /_.-'_  NINTENDO _'-._\\  ' /_+  o :::_\\
+    |`-i /m\\/m\\|\\|/=,/m\\i-'|  | || \\ O / ||
+akg |  |_\\_/\\_/___\\_/'./|  |  | \\/  \\ /  \\/
+     `-'              '-.`-'  ,      V
+'''
+
+logo34 = '''
+  \\/________________        
+ /     _____________)
+/     /     /   \\ |         
+\\/\\/\\/     (O) (O)|           
+  |           ------, 
+  |  _       ______/ 
+  | (_      /   \\  \\
+  |        /  ___\\_ \\       
+  |        \\      / / 
+__|_________\\______/
+\\______________\\./__\\   
+ /     .       | \\  |
+ \\    /_\\   .  |  \\ |\\     
+ |`\\       /_\\ |   \\| \\
+'''
+
+logo35 = '''
+      =====   =======
+  ====     ===       =====
+ =                        =
+=                          =
+=                          =
+=                      ,  =
+=.   -     =    ==     .-=
+ ===  ==== =    = ===== =
+   =   =    ===      =  =
+   =   =      =      =  =
+   =   =      =      =  =
+   =   =      =      =  =
+   =                 =  =
+   =        ....        =
+   =  .-;+++++$/++/:,   =
+   =:+;;;+   ./    +;;/==
+  $MH;;;$     =     +;;H+
+  $MH;;;+   #.;,#   +;;M$
+  $MH;;;+     ;     +;;#$
+  $MH;;;;+   +;+   +;;H#$
+  $MH;;;;;+++;;;+++;;;H#$
+  $M#;;;;;H#MHHH##;;;;##$
+  $M#H;;;;HM####MH;;;;##$
+  $M##H;;H####MM##H;;H##$
+  $MM#MHH#H;;;;;;M#H;M##$
+   $M####H;;;HMH;;#HH###$
+   $M#####M;;##H;;#M###M$
+   $MM################M$
+    $MMM############MM$
+     $$MMMMMMMMMMMMMM$
+       $$MMMMMMMMMM$$
+         $$$$$$$$$$
+'''
+
+logo36 = '''
+          _.-/`)
+         // / / )
+      .=// / / / )
+     //`/ / / / /
+    // /     ` /
+   ||         /
+    \\\\       /
+     ))    .'
+jgs //    /
+         /
+'''
+
+logo37 = '''
+                ur d$$$$$$$$$$$$$$Nu
+              d$$$ "$$$$$$$$$$$$$$$$$$e.
+          u$$c   ""   ^"^**$$$$$$$$$$$$$b.
+        z$$#"""           `!?$$$$$$$$$$$$$N.
+      .$P                   ~!R$$$$$$$$$$$$$b
+     x$F                 **$b. '"R).$$$$$$$$$$
+    J^"                           #$$$$$$$$$$$$.
+   z$e                      ..      "**$$$$$$$$$
+  :$P           .        .$$$$$b.    ..  "  #$$$$
+  $$            L          ^*$$$$b   "      4$$$$L
+ 4$$            ^u    .e$$$$e."*$$$N.       @$$$$$
+ $$E            d$$$$$$$$$$$$$$L "$$$$$  mu $$$$$$F
+ $$&            $$$$$$$$$$$$$$$$N   "#* * ?$$$$$$$N
+ $$F            '$$$$$$$$$$$$$$$$$bec...z$ $$$$$$$$
+'$$F             `$$$$$$$$$$$$$$$$$$$$$$$$ '$$$$E"$
+ $$                  ^""""""`       ^"*$$$& 9$$$$N
+ k  u$                                  "$$. "$$P r
+ 4$$$$L                                   "$. eeeR
+  $$$$$k                                   '$e. .@
+  3$$$$$b                                   '$$$$
+   $$$$$$                                    3$$"
+    $$$$$  dc                                4$F
+     RF** <$$                                J"
+      #bue$$$LJ$$$Nc.                        "
+       ^$$$$$$$$$$$$$r
+         `"*$$$$$$$$$
+ $. .$ $~$ $~$ ~$~  $  $    $ $ $~$ $. .$ $~$  $  ~$~
+ $$ $$ $ $ $ $  $  $.$ $    $$  $ $ $$ $$ $.$ $.$  $
+ $`$'$ $ $ $~k  $  $~$ $    $$  $ $ $`$'$ $ $ $~$  $
+ $ $ $ $o$ $ $  $  $ $ $oo  $ $ $o$ $ $ $ $o$ $ $  $
+'''
+
+logo38 = '''
+                             ...,?77??!~~~~!???77?<~.... 
+                        ..?7`                           `7!.. 
+                    .,=`          ..~7^`   I                  ?1. 
+       ........  ..^            ?`  ..?7!1 .               ...??7 
+      .        .7`        .,777.. .I.    . .!          .,7! 
+      ..     .?         .^      .l   ?i. . .`       .,^ 
+       b    .!        .= .?7???7~.     .>r .      .= 
+       .,.?4         , .^         1        `     4... 
+        J   ^         ,            5       `         ?<. 
+       .%.7;         .`     .,     .;                   .=. 
+       .+^ .,       .%      MML     F       .,             ?, 
+        P   ,,      J      .MMN     F        6               4. 
+        l    d,    ,       .MMM!   .t        ..               ,, 
+        ,    JMa..`         MMM`   .         .!                .; 
+         r   .M#            .M#   .%  .      .~                 ., 
+       dMMMNJ..!                 .P7!  .>    .         .         ,, 
+       .WMMMMMm  ?^..       ..,?! ..    ..   ,  Z7`        `?^..  ,, 
+          ?THB3       ?77?!        .Yr  .   .!   ?,              ?^C 
+            ?,                   .,^.` .%  .^      5. 
+              7,          .....?7     .^  ,`        ?. 
+                `<.                 .= .`'           1 
+                ....dn... ... ...,7..J=!7,           ., 
+             ..=     G.,7  ..,o..  .?    J.           F 
+           .J.  .^ ,,,t  ,^        ?^.  .^  `?~.      F 
+          r %J. $    5r J             ,r.1      .=.  .% 
+          r .77=?4.    ``,     l ., 1  .. <.       4., 
+          .$..    .X..   .n..  ., J. r .`  J.       `' 
+        .?`  .5        `` .%   .% .' L.'    t 
+        ,. ..1JL          .,   J .$.?`      . 
+                1.          .=` ` .J7??7<.. .; 
+                 JS..    ..^      L        7.: 
+                   `> ..       J.  4. 
+                    +   r `t   r ~=..G. 
+                    =   $  ,.  J 
+                    2   r   t  .; 
+              .,7!  r   t`7~..  j.. 
+              j   7~L...$=.?7r   r ;?1. 
+               8.      .=    j ..,^   .. 
+              r        G              . 
+            .,7,        j,           .>=. 
+         .J??,  `T....... %             .. 
+      ..^     <.  ~.    ,.             .D 
+    .?`        1   L     .7.........?Ti..l 
+   ,`           L  .    .%    .`!       `j, 
+ .^             .  ..   .`   .^  .?7!?7+. 1 
+.`              .  .`..`7.  .^  ,`      .i.; 
+.7<..........~<<3?7!`    4. r  `          G% 
+                          J.` .!           % 
+                            JiJ           .` 
+                              .1.         J 
+                                 ?1.     .'         
+                                     7<..%
+'''
+
+logo39 = '''
+      ,'``.._   ,'``.
+     :,--._:)\,:,._,.:       
+     :`--,''   :`...';\      
+      `,'       `---'  `.
+      /                 :
+     /                   \
+   ,'                     :\.___,-.
+  `...,---'``````-..._    |:       \
+    (                 )   ;:    )   \  _,-.
+     `.              (   //          `'    \
+      :               `.//  )      )     , ;
+    ,-|`.            _,'/       )    ) ,' ,'
+   (  :`.`-..____..=:.-':     .     _,' ,'
+    `,'\ ``--....-)='    `._,  \  ,') _ '``._
+ _.-/ _ `.       (_)      /     )' ; / \ \`-.'
+`--(   `-:`.     `' ___..'  _,-'   |/   `.)
+    `-. `.`.``-----``--,  .'
+      |/`.\`'        ,','); SJ
+          `         (/  (/
+'''
+
+logo40 = '''                                
+      .  x!X                                 
+    ."X M~~>                                 
+   d~~XX~~~k    .u.xZ `\ \ "%                
+  d~~~M!~~~?..+"~~~~~?:  "    h              
+ '~~~~~~~~~~~~~~~~~~~~~?      `              
+ 4~~~~~~~~~~~~~~~~~~~~~~>     '              
+ ':~~~~~~~~~~(X+"" X~~~~>    xHL             
+  %~~~~~(X="      'X"!~~% :RMMMRMRs          
+   ^"*f`          ' (~~~~~MMMMMMMMMMMx       
+     f     /`   %   !~~~~~MMMMMMMMMMMMMc     
+     F    ?      '  !~~~~~!MMMMMMMMMMMMMM.   
+    ' .  :": "   :  !X""(~~?MMMMMMMMMMMMMMh  
+    'x  .~  ^-+="   ? "f4!*  #MMMMMMMMMMMMMM.
+     /"               .."     `MMMMMMMMMMMMMM
+     h ..             '         #MMMMMMMMMMMM
+     f                '          @MMMMMMMMMMM
+   :         .:=""     >       dMMMMMMMMMMMMM
+   "+mm+=~("           RR     @MMMMMMMMMMMMM"
+           %          (MMNmHHMMMMMMMMMMMMMMF 
+          uR5         @MMMMMMMMMMMMMMMMMMMF  
+        dMRMM>       dMMMMMMMMMMMMMMMMMMMF   
+       RM$MMMF=x..=" RMRM$MMMMMMMMMMMMMMF    
+      MMMMMMM       'MMMMMMMMMMMMMMMMMMF     
+     dMMRMMMK       'MMMMMMMMMMMMMMMMM"  
+'''
+
+logo41 = '''
+        ()()         ____
+        (..)        /|o  |
+        /\\/\\       /o|  o|
+       c\db/o...  /o_|_o_|
+'''
+
+logo42 = '''
+                              !         !          
+                             ! !       ! !          
+                            ! . !     ! . !          
+                               ^^^^^^^^^ ^            
+                             ^             ^          
+                           ^  (0)       (0)  ^       
+                          ^        ""         ^       
+                         ^   ***************    ^     
+                       ^   *                 *   ^    
+                      ^   *   /\\   /\\   /\\    *    ^   
+                     ^   *                     *    ^
+                    ^   *   /\\   /\\   /\\   /\\   *    ^
+                   ^   *                         *    ^
+                   ^  *                           *   ^
+                   ^  *                           *   ^
+                    ^ *                           *  ^  
+                     ^*                           * ^ 
+                      ^ *                        * ^
+                      ^  *                      *  ^
+                        ^  *       ) (         * ^
+                            ^^^^^^^^ ^^^^^^^^^ 
+'''
+
+logo43 = '''
+                                                                              
+              ,,,,.   .,,,.                           .,,,..   ,,,,.            
+            .,,,,,,,,,,,,,,,.                        ,,,,,,,,,,,,,,,,.          
+           .,,,*****,*****,,,.                     .,,,*****,,****,,,,          
+ ,,,,      ,,,*************,,,      ,,,, ,,,       *,,*************,,,,      .,,
+ ,,,,,.   ,,,,*************,,,    *,,,,,,,,,,,     ,,,**************,,,    .,,,,
+ ,,,,,,,,.,,,,,,,*******,,,,,,,.,,,,,,,,,,,,,,,,. ,,,,,,**********,,,,,..,,,,,,,
+ .,,,,,,,,,,,***,,,,,,,,,***,,,,,,,,,,,. ,,,,,,,,,,,,**,,,,,,,,,,,,**,,,,,,,,,,,
+  .,,,,,,,,,,,*************,,,,,,,,,,,,  .,,,,,,,,,,,****************,,,,,,,,,,,
+    ,,,,,,,,,,,,,******,,,,,,,,,,,,,,      ,,,,,,,,,,,,************,,,,,,,,,,,, 
+      ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,         ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,.  
+      (#%#(*,,,,,,,,,,,,,,,,,*/*              .,*,,,,,,,,,,,,,,,,,,,,,,,,,,     
+     (#&&@@@@@@@&%%%%%%%&@@@@&%#(,            (#%&&%(**,,,,,,,,,,,,**#&&%(/     
+   ,(%&@@@@@@@@@@@@@@@@@@@@@@@@&#(           (#%&@@@@@@@@@@@@@@@@@@@@@@@&%(/    
+  .(%&@@@@@@@@@@@@@@@@@@@@@@@@@@&#(.        (#%&@@@@@@@@@@@@@@@@@@@@@@@@@&%(/   
+  (#&&@@@@@@@@@@@@@@@@@@@@@@@@@@&%#/       *(%&@@@@@@@@@@@@@@@@@@@@@@@@@@@&%(,  
+ ,(%&@@@@@@@@@@@@@@@@@@@@@@@@@@@@&%(,      (#&@@@@@@@@@@@@@@@@@@@@@@@@@@@@&%#(  
+ (#&&/,,,,,,,..,*%@@@@@@@@@@@@@@@&%#(     /#%&%*,,,,,,,,,,(@@@@@@@@@@@@@@@@&%(  
+ (%*,#@@@&,....,.../@@@@@@@@@@@@@@&#(,    (#(,#@@@@(  ...,,,,%@@@@@@@@@@@@@&%(/ 
+ (,.,%@@@(      .,,..&@@@@@@@@@@@@&%(,    (*.*&@@@&,      .,,.(@@@@@@@@@@@@&%#( 
+ *.,.            .*,,/@@@@@@@@@@@@&%(,    (,..             .**,%@@@@@@@@@@@&%#( 
+ *,,              ***/@@@@@@@@@@@@&#(,    (,,.             ./**%@@@@@@@@@@@&%#( 
+ /.,.            ,(/,%@@@@@@@@@@@&&#(     (*,,             *(/*@@@@@@@@@@@@&%(/ 
+ //,**.        ,##(*%@@@@@@@@@@@@&%#/      (*,**         *%#((@@@@@@@@@@@@@&#(  
+ ,(#/*/((#######(*%@@@@@@@@@@@@@@&#(       (##,*/((###%###/(@@@@@@@@@@@@@@&%(,  
+  /#%&@&#((((%&@@@@@@@@@@@@@@@@@&%(,       ,(#&@@%#(((#%@@@@@@@@@@@@@@@@@&%#(   
+   /#%&@@@@@@@@@@@@@@@@@@@@@@@@&%#/         ,(%&@@@@@@@@@@@@@@@@@@@@@@@@&%#(    
+    (#%&@@@@@@@@@@@@@@@@@@@@@@&%(*           ,(%&@@@@@@@@@@@@@@@@@@@@@@&%#(.    
+     ,(%&@@@@@@@@@@@@@@@@@@@&&#(*              (#%&@@@@@@@@@@@@@@@@@@@&%#/      
+       (#%&&@@@@@@@@@@@@@@&&%((                 /(#%&@@@@@@@@@@@@@@@&%#(.       
+         *(#%&&@@@@@@@@&&%#(/.                    ,(#%&&@@@@@@@@@&&%#(.         
+           ./(##%%%%%%##(/                           *((##%%%%%##((.     
+'''
+
+logo44 = '''
+......... (*,,*((####################################(###(((,...............   .
+............#############################(##############(((((#..................
+........  .//*..((###################((##/(###############((#*((...,..,,,.. ....
+.............. *####################/#(/&*##,(###########(##(((/  ..,,,,,,,,...,
+.............. . .((###(//#((.(#//(*/(%&&%(#**##(/(#########(((#(..,,,,,,,,,,,,,
+........... ..,.../(##(.,#/..(/*,*,,*#&&&%%*/%#(((#(####((#####((/,,,,,,,,,,,,,,
+   ......... ... ..(#(. *,.*/%(%&&&&%*#&%&&%&.*/#(##&/((#(./(###((#,,,*,,,,,,,,,
+. .........,**..., .,/. .. .... ..... *.%%%%*/........,,((/.*,(##((((((#/ ,.....
+#%%%%#/,,..*/(//.......... . *,**...,.....,. ..,*...,....,(...*/((((#(..........
+,.,.,,%%%#%....,, ....(&, ../**.. ..*....... **.  ..** ..,*...........,,,,,,,,,*
+*..,%%%%&,.....,%(#%( (,%,, ...,**....,/%%(,..**..,**.....*%#....... ,*******,,,
+&&&%&*#(,,.,.,(###(....%%%%#,,.....*%&&&&&&%&#........../,.,/.. ,,,.,,,,,,,,,**,
+&&&&&&&.,.,.#(((#.,,,./&@@#%%%%%%%&&&&&&%&&&&&&&%#####%%%%&.  (.,,**************
+&&&&&&/%,.(((##,..*@@@@@@@*&&&&&&&&&&&&&&&&&&&&&&&%%%%** *,..  (...,,,**********
+&&&&&&/&&%(,/(#/@@@@@@@@@@@@,%%&&&%&*,*//***#&&&&%%%&,*%%&.,,*,(. .......,,,****
+&&&%%&&(......#@@@@@@@@@@@@@#(*,&&%%%%//(((*&%&%%%/***%&%%%%.,/,,..,**,........,
+,%&,,,/&%.....*#@@@@@@@@@@@@(((****,%%%%&&%%%&(,,***/%%&&&%%%*/*****,,,,.,,**,,#
+.&&.,,(%%...%%(*,@@@@@@@/@@@#((((*******,,*********#%&&&&%%%#(%,*/((((##(//#((((
+'''
+
+logo45 = '''
+                    :;ittt+;                .;=tXRRBBBBBRVt;  
+                ;tRBMMMMMMMMBV;           ;tBMMMMMBBMMMMMMMMt 
+             ;YBMMMBRXYXVRBMMMMBIVBBMBBBBMMMMBRI=iRBMMBRiRMMB 
+          ;IBMMBX=:        YBMMMMMMMBBBMMMB+. .iBMMBX;   ;MMV 
+        .RMMMB;             ;BMMMBi:   tMM: ;XBMBI;      .MMt 
+       ;BMMMM+               RMMM;      BMYBBRi:         ;MM= 
+      iBiRMMB                BMMR      +BMMV             iMM: 
+     VY  :BMM:              ;MMM=     VMMMMB             RMB  
+   :BR    YMMY             .BMMB    ;BMBI;BMX           RMMi  
+  =BB:    .BMB:           :BMMB;    BMMt  ;BMR.       ;BMMB   
+ iMMR      tMMB.         ;BMB+.    +MMR    ;BMBY: :;IBMMMB.   
+:BMM;       RBMB;     :tBMMB;      BMR      ;BMMMMMMMMMR;     
+YMMR          ;iRBRRBBMMBV;        ;;         ;iXRRRI;.       
+VMB.              ;tYt;:                                      
+:R:
+'''
+
+logo46 = '''
+
+                     | |
+                     | |
+                     | |
+                     | |   
+                     | |       
+                 ,-""; :""-.
+                 |`--...--'J
+                 |         J
+                 |         J
+                 |         J
+                 |         |
+                 F         |
+                 F        \J
+                 F         7
+                J          ;:.          
+               /   .        ::::...
+              J   :             ""::::...
+              F   `                    ":::"-..___
+              J        ___.....____             `"F
+    -----------""----""            """----"""---'-------
+'''
+logo47 = '''
+        ___          
+    . -^   `--,      
+   /# =========`-_   
+  /# (--====___====\\ 
+ /#   .- --.  . --.| 
+/##   |  * ) (   * ),
+|##   \\    /\\ \\   / |
+|###   ---   \\ ---  |
+|####      ___)    #|
+|######           ##|
+ \\##### ---------- / 
+  \\####           (  
+   `\\###          |  
+     \\###         |  
+      \\##        |   
+       \\###.    .)   
+        `======/     
+'''
+
+logo48 = '''
+    %%%
+   =====
+  &%&%%%&
+  %& < <% 
+   &\\__/
+    \\ |____
+   .', ,  ()
+  / -.  _)| 
+ |_(_.    |
+ '-'\\  )  |
+ mrf )    |
+    /  .  ).
+   /    _. |
+ /'---':.-'|
+(__.' /    /
+ \\   ( /  /
+  \\ /  _  | 
+   \\  |  '|
+   | . \\  |
+   |(     | 
+   |  \\ \\ |
+    \\  )\\ |
+   __)/ / \\
+--"--(_.Ooo'----
+'''
+
+logo49 = '''
+     _____  
+   .'     `.
+  /         \\
+ |           | 
+ '.  +^^^+  .'
+   `. \./ .'
+     |_|_|  
+     (___)    
+jgs  (___)
+     `---'
+'''
+
+logo50 = '''
+        ___
+     __|___|__
+      ('o_o')
+      _\\~-~/_    ______.
+     //\\__/\\ \\ ~(_]---'
+    / )O  O( .\\/_)
+    \\ \\    / \\_/
+    )/_|  |_\\
+   // /(\\/)\\ \\
+   /_/      \\_\\
+  (_||      ||_)
+    \\| |__| |/
+     | |  | |
+     | |  | |
+     |_|  |_|
+     /_\\  /_\\
+'''
+
 logos.append(logo)
 logos.append(logo1)
 logos.append(logo2)
@@ -682,9 +1115,29 @@ logos.append(logo29)
 logos.append(logo30)
 logos.append(logo31)
 logos.append(logo32)
+logos.append(logo33)
+logos.append(logo34)
+logos.append(logo35)
+logos.append(logo36)
+logos.append(logo37)
+logos.append(logo38)
+logos.append(logo39)
+logos.append(logo40)
+logos.append(logo41)
+logos.append(logo42)
+logos.append(logo43)
+logos.append(logo44)
+logos.append(logo45)
+logos.append(logo46)
+logos.append(logo47)
+logos.append(logo48)
+logos.append(logo49)
+logos.append(logo50)
+
 
 quotes = []
 
+q = 'Dig Ole\' Bicks'
 q1 = 'When your only tool is a hammer, all problems start looking like nails.'
 q2 = 'Artificial intelligence is no match for natural stupidity.'
 q3 = 'The last thing I want to do is insult you. But it IS on the list.'
@@ -692,7 +1145,7 @@ q4 = 'I don\'t have a solution, but I do admire the problem.'
 q5 = 'The only substitute for good manners is fast reflexes.'
 q6 = 'Support bacteria - they\'re the only culture some people have.'
 q7 = 'Letting the cat out of the bag is a whole lot easier than putting it back in.'
-q8 = 'Well, here I am! What are your other two wishes?'
+q8 = 'Go Fuck Yourself'
 q9 = 'Always remember you\'re unique, just like everyone else.'
 q10 = 'Everybody repeat after me: \"We are all individuals.\"'
 q11 = 'Confession is good for the soul, but bad for your career.'
@@ -706,7 +1159,7 @@ q18 = 'Help stamp out, eliminate and abolish redundancy!'
 q19 = 'How many of you believe in telekinesis? Raise MY hand!'
 q20 = 'A dog has an owner. A cat has a staff.'
 q21 = 'Every organisation is perfectly designed to get the results they are getting.'
-q22 = 'Which one of these is the non-smoking lifeboat?'
+q22 = 'If you think everyone around you is an asshole. You might be an asshole'
 q23 = 'Treat each day as your last; one day you will be right.'
 q24 = 'Red meat is not bad for you. Fuzzy green meat is bad for you.'
 q25 = 'The early bird may get the worm, but the second mouse gets the cheese.'
@@ -717,7 +1170,26 @@ q29 = 'All power corrupts. Absolute power is pretty neat, though.'
 q30 = 'I might be an asshole, but being nice is something dumb people do to hedge their bets.'
 q31 = 'Blasphemy is a victimless crime.'
 q32 = 'Immortality was created by christians to sell crosses, the fuck outta here'
+q33 = 'If life gives you lemons... Don\'t try to fuck them'
+q34 = 'Children are stupid and the average human acts like a child..'
+q35 = 'Remember, life is a bitch and the only guarantee is taxes'
+q36 = 'I put the radical in radicalized envioronmental terrorist!'
+q37 = 'Wubba Lubba Dub Dub!'
+q38 = 'To live is to risk it all; otherwise you\'re just an inert chunk of randomly assembled molecules drifting wherever the universe blows you.'
+q39 = 'I take jokes like I take dicks, hard and I don\'t get it often.'
+q40 = 'Well, life could be worse I guess.... *Insert Death Noises Here*'
+q41 = 'Shut up and take my Money!'
+q42 = 'Receptionists have to be nice because they chose a stupid profession'
+q43 = 'Death is probably the easy option'
+q44 = 'No expected... The Spanish Inquisition!'
+q45 = 'Strange women lying in ponds distributing swords is no basis for a system of government.'
+q46 = 'Tis\' but a scratch'
+q47 = 'SHOW ME WHAT YOU GOT!'
+q48 = 'Yee-Haw Ya Son of a Bitch'
+q49 = 'Life is pain'
+q50 = 'I\'ve been waiting to die since the day I was born'
 
+quotes.append(q)
 quotes.append(q1)
 quotes.append(q2)
 quotes.append(q3)
@@ -750,6 +1222,24 @@ quotes.append(q29)
 quotes.append(q30)
 quotes.append(q31)
 quotes.append(q32)
+quotes.append(q33)
+quotes.append(q34)
+quotes.append(q35)
+quotes.append(q36)
+quotes.append(q37)
+quotes.append(q38)
+quotes.append(q39)
+quotes.append(q40)
+quotes.append(q41)
+quotes.append(q42)
+quotes.append(q43)
+quotes.append(q44)
+quotes.append(q45)
+quotes.append(q46)
+quotes.append(q47)
+quotes.append(q48)
+quotes.append(q49)
+quotes.append(q50)
 
 
 parser.add_argument('-a','--ascii', help='show me some ascii goodness', required=False)
@@ -765,21 +1255,26 @@ try:
         print(quotes[0])
 
     elif args['random'] == 'rando':
-        val = randint(0, 30)
+        val = randint(0, 50)
+        valit = randint(0, 50)
         print(logos[val])
-        print(quotes[val])
+        print(quotes[valit])
     
     elif args['num'] != None and int(args['num']) > 0:
         print(logos[int(args['num'])])
+        print(quotes[int(args['num'])])
     
     elif int(args['loop_em']) > 0:
         for i in range(int(args['loop_em'])):
-            val2 = randint(0, 30)
+            val2 = randint(0, 50)
+            val3 = randint(0, 50)
             print(logos[val2])
-            print(quotes[val2])
+            print(quotes[val3])
             time.sleep(1)
 
     else:
         print('Invalid Choice')
 except KeyboardInterrupt:
     print('Leaving Program... Goodbye')
+except TypeError:
+    print('USAGE: <Python ascii.py -a 0\ncan only be used with arguments')

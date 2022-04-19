@@ -1,0 +1,33 @@
+"""
+Created on Tue Apr 19 14:00:05 2022
+
+@author: SamuelJames
+this program can take a .data file and produce metrics given the file
+"""
+
+#!pip install wget
+import numpy as np
+from sklearn.decomposition import PCA
+from numpy import genfromtxt
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LogisticRegression
+import matplotlib.pyplot as plt
+import wget
+
+url = 'https://archive.ics.uci.edu/ml/machine-learning-databases/lung-cancer/lung-cancer.data'
+wget.download(url, './lung-cancer.data')
+my_data = genfromtxt('lung-cancer.data',delimiter=',')
+
+classes = my_data[:,0]
+features = my_data[:,1:]
+
+fcorr = np.zeros((features.shape[1],features.shape[1]))
+
+for i in range(features.shape[1]):
+  for j in range(features.shape[1]):
+    r = np.corrcoef(features[:,i],features[:,j])
+    if i != j:
+      fcorr[i,j] = r[0,1]
+
+plt.bar(list(range(features.shape[1]*features.shape[1])),fcorr.reshape(features.shape[1]*features.shape[1]))
+plt.show()

@@ -41,6 +41,19 @@ soccer = [" 🧑⚽️       🧑 ","🧑  ⚽️      🧑 ","🧑   ⚽️    
 diamond = ["🔸 ","🔶 ","🟠 ","🟠 ","🔶 ","🔹 ","🔷 ","🔵 ","🔵 ","🔷 "]
 hands = ["🤘 ","🤟 ","🖖 ","✋ ","🤚 ","👆 "]
 weather = ["☀️ ","☀️ ","☀️ ","🌤 ","⛅️ ","🌥 ","☁️ ","🌧 ","🌨 ","🌧 ","🌨 ","🌧 ","🌨 ","⛈ ","🌨 ","🌧 ","🌨 ","☁️ ","🌥 ","⛅️ ","🌤 ","☀️ ","☀️ "]
+kisses = ["😗", "😙", "😚", "😘"]
+covid = ["😷", "🤒", "🤧", "🤢", "🤮"]
+age = ["👶", "👦", "🧔", "👨‍🦳"]
+decompose = ["😧", "😱", "💀", "👻"]
+finspin = ["👈", "🖕", "👉", "👇"]
+flags = ["🏳️‍🌈", "🏳️‍", "🏴‍", "🚩"]
+square = ["🟥", "🟧", "🟨", "🟩", "🟦", "🟪", "⬛"]
+weapon = ["🗡", "🛠", "⚔"]
+sleepy = ["😔", "🤤", "😪", "😴"]
+hacker = ["🧑‍💻", "👨‍💻"]
+bat = ["[🦇\u3000\u3000\u3000]", "[\u3000🦇\u3000\u3000]", "[\u3000\u3000🦇\u3000]", "[\u3000\u3000\u3000🦇]", "[\u3000\u3000🦇\u3000]", "[\u3000🦇\u3000\u3000]"]
+whale = ["🐳", "🐋", "🐬"]
+
 
 allnames = '''
 All package loadbar names:\n
@@ -49,21 +62,24 @@ bar:▇ , boxEye:◰, blink:(o)(o) , bar_horz:[■□□□□□□□□□] ,
 star:✸ , noise:▒ , bounce:▖, balOfDeath:◠ , toggle:□, \n
 toggle2:⦾ , toggle3:㊂ , toggle4: ⊷ , monkey:🙉 , clock:🕛, sound:🔉 , \n
 fun:🤜\u3000🤛 , run:🏃 , dot:⠙ , pipe: ┤ , mind: 😐, \n
-soccer:🧑⚽️ 🧑 , diamond: 🔸 , weather:🌤
-
+soccer:🧑⚽️ 🧑 , diamond: 🔸 , weather:🌤 , kisses: ☺, \n
+covid: 🤮, age: 👶 , decompose:👻 , finspin: 👇 , flags: 🚩 \n
+square: 🟪 , weapon: 🗡 , sleepy:😴 , hacker:👨‍💻 , bat: , 🦇 \n
+whale: 🐳
 '''
      
 def getLoadNames():
     print(allnames)
 
 def LoadingDemo():
-    running = [arrow,eye, earth,moon,heart,bar,boxEye,blink,bar_horz,vert,star,noise,bounce,balOfDeath,toggle,toggle2,toggle3,toggle4,monkey,clock,sound,fun,run,dot,pipe,mind,soccer,diamond,weather]
+    running = [whale, bat, hacker, sleepy, weapon, square, flags, finspin, decompose, age, covid, kisses, arrow,eye, earth,moon,heart,bar,boxEye,blink,bar_horz,vert,star,noise,bounce,balOfDeath,toggle,toggle2,toggle3,toggle4,monkey,clock,sound,fun,run,dot,pipe,mind,soccer,diamond,weather]
     for i in range(len(running)):
         for t in range(3):
             for j in range(len(running[i])):
                 print(colored((running[i][j]*5), 'green', 'on_grey'), end = '\r')
                 time.sleep(.25)
         os.system('cls')
+        
 #loading animation test
 def loading(arr):
     for y in range(10):

@@ -1,4 +1,3 @@
-
 import cv2
 import matplotlib.pyplot as plt
 import numpy as np
@@ -27,7 +26,36 @@ def blur(frame):
 def gray(frame):
     greyscale = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     return greyscale
+
+def faceRecog(frame):
+    ## initialize cascade default front facing facial recognition xml
+    cascPath = "haarcascade_frontalface_default.xml"
+
+    # Create the haar cascade
+    faceCascade = cv2.CascadeClassifier(cascPath)
+
+    # Read the image
+    image = frame
+    gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY) #(Self note: this should work)
+
+    # Detect faces in the image
+    faces = faceCascade.detectMultiScale(
+       gray,
+       scaleFactor=1.5,
+       minNeighbors=2, 
+       ### (self note: miNeighbor increase/dec ??)###
+       minSize=(30, 30),
+       flags = cv2.CASCADE_SCALE_IMAGE
+    )
+    ## print amount of faces discovered 
+    ###(self note: increase neighbors?)###
+    print("Found {0} (full view) faces!".format(len(faces)))
+
+    # Draw a rectangle around the faces
+    for (x, y, w, h) in faces:
+        cv2.rectangle(image, (x, y), (x+w, y+h), (0, 255, 0), 2) 
     
+    return image
 
 def detectShape(frame):
     # Convert input image to grayscale
@@ -58,10 +86,10 @@ def detectShape(frame):
         contour1 = cv2.drawContours(input_image_cpy, contours_list, contour_num, (255, 0, 255), 3)
      
         # Find number of points of detected contour
-        end_points = cv2.approxPolyDP(contours_list[contour_num], 0.02 * cv2.arcLength(contours_list[contour_num], True), True)
+        end_points = cv2.approxPolyDP(contours_list[contour_num], 0.001 * cv2.arcLength(contours_list[contour_num], True), True)
      
         # Make sure contour area is large enough (Rejecting unwanted contours)
-        if (cv2.contourArea(contours_list[contour_num])) > 10000:
+        if (cv2.contourArea(contours_list[contour_num])) > 10:
      
             # Find first point of each shape
             point_x = end_points[0][0][0]
@@ -128,6 +156,8 @@ def showing(frame, num):
     elif num == 6:
         #giveMeEdges(frame) possibly use as initial image rather than conversion
         cv2.imshow("CAMMER", detectShape(frame))  
+    elif num == 7:
+        cv2.imshow("CAMMER", faceRecog(frame))  
 
 def openCam():
     cv2.namedWindow("CAMMER")
@@ -160,6 +190,8 @@ def openCam():
             inp = 5
         elif key == 55 or key == 103: # 7 and numpad 7
             inp = 6
+        elif key == 56 or key == 104: # 8 and numpad 8
+            inp = 7
     vc.release()
     cv2.destroyWindow("CAMMER")
     
